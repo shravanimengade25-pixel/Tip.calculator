@@ -1,0 +1,136 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Mono', monospace;
+}
+
+
+body{
+background-color: skyblue;
+display: flex;
+justify-content: center;
+ align-items: center;
+}
+.wrapper {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    height: 100vh;
+}
+
+.container{
+background-color: white;
+padding: 30px;
+display: flex;
+border-radius: 15px;
+gap:30px;
+
+}
+.label{
+color:darkgray;
+font-weight: 700;
+display:block;
+margin-bottom: 15px;
+}
+
+.left{
+width:50%;
+}
+.inputwrapper{
+  position: relative;
+  margin-bottom: 30px;
+}
+.icon{
+  position: absolute;
+  left: 15px;
+  top:50%;
+    transform: translateY(-50%);
+  color:darkgrey;
+  font-size: 18px;
+  text-align: center;
+}
+.input{
+width:100%;
+border-radius: 10px;
+background-color: lightgray;
+color:  grey;
+padding:12px 15px 12px 40px;
+
+border: none;
+font-size: 18px;
+font-weight: 700;
+}
+
+.tipbtns{
+    
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:12px;
+   
+    margin-bottom: 30px;
+}
+.tip-btn{
+color:white;
+    background-color: #00494d;
+    padding:12px;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+font-size:20px ;
+}
+.custominput{
+  background-color: lightgray;
+  color:grey;
+  font-weight: 700;
+    font-size: 16px;
+  padding:12px;
+   border-radius: 10px;
+   border: none;
+   text-align: center;
+}
+
+.right{
+color:white;
+    background-color: #00494d;
+padding:20px;
+border-radius: 10px;
+width:50%;
+display: flex;
+justify-content: space-between;
+flex-direction:column ;
+
+}
+
+.amountrow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.title{
+  color:white;
+  font-weight:700;
+}
+.per{
+  color:darkgray;
+  font-size:12px;
+}
+
+#reset{
+width:100%;
+margin-top: 30px;
+padding: 10px;
+background-color: #03787e;
+color:#01383b;
+border: none;
+border-radius: 10px;
+font-size: 18px;
+font-weight: 700;
+}
